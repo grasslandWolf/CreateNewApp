@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  CreateNewApp
+
+  Created by MAC Mini on 16/4/11.
+  Copyright © 2016年 test. All rights reserved.
+*/
+"loading" = "Loading....";
+"search"  = "Search";
