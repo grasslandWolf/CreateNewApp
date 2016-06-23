@@ -494,9 +494,17 @@
 			path = Required;
 			sourceTree = "<group>";
 		};
+		8A78EB5A1D17C164001A18FE /* third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = third;
+			sourceTree = "<group>";
+		};
 		8ABE77341C55CAEF00352BF5 = {
 			isa = PBXGroup;
 			children = (
+				8A78EB5A1D17C164001A18FE /* third */,
 				8A71F1611CBE28AE0090E7D5 /* 456.png */,
 				8A51CF201CBB939E0077E759 /* Localizable.strings */,
 				8A51CF031CBB83840077E759 /* CreateNewApp.pch */,

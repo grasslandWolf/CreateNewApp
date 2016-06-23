@@ -9,7 +9,11 @@
 #import "NewViewController.h"
 
 
+
+
 @interface NewViewController ()
+
+@property (nonatomic ,strong) UIImageView * zoomView;
 
 @end
 
@@ -18,8 +22,46 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self setup];
+    
+    
 }
 
+-(void)setup {
+
+
+}
+-(void)bindModel {
+
+
+
+    UITapGestureRecognizer *tapClothesImageView = [[UITapGestureRecognizer alloc]init];
+    [self.zoomView addGestureRecognizer:tapClothesImageView];
+    [tapClothesImageView addTarget:self action:@selector(touchUpAndDown)];
+    
+    
+    
+  
+}
+
+-(void)touchUpAndDown:(UITapGestureRecognizer *)gesture {
+
+//    JTSImageInfo *imageInfo = [[JTSImageInfo alloc] init];
+//    imageInfo.referenceContentMode = self.zoomView.contentMode;
+//    imageInfo.image = self.zoomView.image;
+//    imageInfo.referenceRect = self.zoomView.frame;
+//    imageInfo.referenceView = self.zoomView.superview;
+//    
+//    // Setup view controller
+//    JTSImageViewController *imageViewer = [[JTSImageViewController alloc]
+//                                           initWithImageInfo:imageInfo
+//                                           mode:JTSImageViewControllerMode_Image
+//                                           backgroundStyle:JTSImageViewControllerBackgroundOption_Scaled];
+//    
+//    // Present the view controller.
+//    [imageViewer showFromViewController:self transition:JTSImageViewControllerTransition_FromOriginalPosition];
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

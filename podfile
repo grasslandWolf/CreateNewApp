@@ -1,0 +1,18 @@
+platform:ios,'7.0'
+target "CreateNewApp" do  
+pod 'JGProgressHUD'
+pod 'AFNetworking'
+pod 'AFNetworking-RACExtensions'
+pod 'GBDeviceInfo'
+pod 'GBJailbreakDetection'
+pod 'Masonry'
+pod 'MBProgressHUD'
+pod 'OpenShare'
+pod 'Reachability'
+pod 'SDWebImage'
+pod 'pop'
+pod 'CRToast'
+pod 'FXBlurView'
+pod 'MMNumberKeyboard'
+pod 'ReactiveCocoa'
+end
